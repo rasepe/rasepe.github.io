@@ -1,1 +1,65 @@
 @charset "UTF-8";
+
+.container-fluid {
+	padding:0px;
+}
+.bg-dark {
+    background-color: #00a5d5!important;
+    padding: 0;
+}
+#logo {
+   /* width: 39%; */
+    /* height: 30%; */
+  /*  width: 92px;
+  height: 40px;*/
+   width: 115px;
+  height: 50px;
+  float: left;
+}
+.navbar-brand  {
+	padding: 0;
+	font-size: 0.75em;
+	font-weight: bold;
+}
+br {
+            display: block; /* makes it have a width */
+            content: ""; /* clears default height */
+            margin-top: -5px; /* change this to whatever height you want it */
+}
+
+.negre {
+	color: black;
+}
+
+#icones {
+	float:right;
+	margin: 10px 10px 0 0;
+}
+.facebook {
+	color: blue;
+}
+
+.twitter {
+	color:DeepSkyBlue;
+}
+
+.googleplus {
+	color: #d34836;
+}
+
+.linkedin {
+	color: #0e76a8;
+}
+.instagram {
+ color: #3f729b;
+ }
+ .pinterest {
+ color: #c8232c;
+ }
+ .card {
+ display: inline-block;
+ }
+ .card-img-top {
+ width: 700 px;
+ height: 400 px;
+ }
