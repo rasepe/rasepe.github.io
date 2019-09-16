@@ -59,12 +59,16 @@ br {
  .noticies {
 clear: both;
 }
+#novedades {
+	margin-left: 8%;
+}
 
 
 
-  /*.card {
+.card {
  display: inline-block;
- }*/
+ min-width: 300px;
+ }
 .card-img-top {
  width: 700 px;
  height: 400 px;
