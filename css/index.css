@@ -33,7 +33,7 @@ br {
 
 #icones {
 	float:right;
-	margin: 10px 10px 0 0;
+	margin: 10px;
 }
 .facebook {
 	color: blue;
@@ -56,10 +56,16 @@ br {
  .pinterest {
  color: #c8232c;
  }
- .card {
+ .noticies {
+clear: both;
+}
+
+
+
+  /*.card {
  display: inline-block;
- }
- .card-img-top {
+ }*/
+.card-img-top {
  width: 700 px;
  height: 400 px;
  }
