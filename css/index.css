@@ -73,3 +73,41 @@ clear: both;
  width: 700 px;
  height: 400 px;
  }
+ 
+ footer  {
+ background-color: #00a5d5;
+color: rgba(255,255,255,.5);
+ }
+ 
+ #icones-footer a {
+ color: #00a5d5;
+ }
+ 
+#icones-footer .fa-inverse {
+	color: rgba(255,255,255,.5);
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+	
+ color: rgba(255,255,255,.5); 
+
+}
+
+footer a:hover {
+	
+ color: rgba(255,255,255,.75); 
+ text-decoration: none;
+
+}
+
+footer .card {
+	background-color: #00a5d5;
+	border: 0;
+	min-width:10rem;
+}
