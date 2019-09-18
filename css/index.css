@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+
 .container-fluid {
 	padding:0px;
 }
@@ -65,7 +67,7 @@ clear: both;
 
 
 
-.card {
+/*.card {
  display: inline-block;
  min-width: 300px;
  }
@@ -74,26 +76,139 @@ clear: both;
  height: 400 px;
  }*/
  
- .noticies .card-body {
- padding: 0;
+ .noticies [class*="col"], .centres [class*="col"], .campus [class*="col"] {
+		padding: 0;
+	margin: 0.5rem!important;
+	border: 1px rgba(0, 0, 0, 0.1) solid;
+	border-radius: 5px;
+	
+} 
+
+
+
+@media (min-width: 768px) {
+.noticies [class*="col"], .centres [class*="col"], .campus [class*="col"] {
+max-width: 47%;
+} 
+}
+
+@media (min-width: 992px) {
+.noticies [class*="col"], .centres [class*="col"], .campus [class*="col"] {
+max-width: 31%;
+} 
+}
+
+
+ .noticies .card, .centres .card, .campus .card {
+padding: 0;
+border: 0;
+ }
+
+ .noticies .card-body, .centres .card-body, .campus .card-body  {
+padding: 0;
+
+
  }
  
-  .noticies .card-title {
+  .noticies .card-title, .centres .card-title, .campus .card-title {
  padding: 10px 10px 0 10px;
  color: #00a5d5;
  }
  
-  .noticies .card-text {
+  .noticies .card-text, .centres .card-text, .campus .card-text {
  padding: 0 10px 10px 10px;
  }
+ 
+ 
+ .centres [class*="col"], .campus [class*="col"] {
+ position: relative;
+ /*align-items: stretch;*/
+ }
+ 
+.centres .card-img-top {
+	height:  188.66px;
+}
+ 
+.centres .dades {
+	height:200px;
+}
+.centres .acces {
+	height:200px;
+}
+
+.centres h5 {
+	margin-left: 3%;
+}
+
+
+.centres .card ul {
+	  list-style-type: none;
+	  padding-left: 0;
+	  margin-left: 5%;
+	  margin-right: 5%;
+
+}
+
+
+
+.centres .dades ul {
+	  border-top: 1px rgba(0, 0, 0, 0.1) solid;
+	  padding-top: 3%;
+}
+
+.centres .acces h6 {
+	  border-top: 1px rgba(0, 0, 0, 0.1) solid;
+	  	margin-left: 5%;
+	margin-right: 5%;
+	padding-top: 3%;
+	color: #666666;
+}
+
+.campus .card h6 {
+	color: black;
+}
+
+.centres .boto {
+	position: absolute;
+	bottom:0px;
+	left:50%;
+	margin-left: -60px;
+	
+}
+
+.campus .boto {
+	position: absolute;
+	bottom:10px;
+	left:10px;
+	
+}
+
+.centres .btn-primary, .campus .btn-primary {
+	background-color: #00a5d5;
+	border-color: #00a5d5;
+}
+
+.centres .fas {
+	color: #666666;
+}
+
+.centres .acces, .centres .dades, .campus .card {
+	overflow: hidden;
+}
+
+.campus .text {
+	height: 300px;
+}
  
  footer  {
  background-color: #00a5d5;
 color: rgba(255,255,255,.5);
+margin-top: 10px;
  }
  
  #icones-footer a {
  color: #00a5d5;
+ padding-top: 10px;
  }
  
  
