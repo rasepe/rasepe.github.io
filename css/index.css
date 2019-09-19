@@ -29,6 +29,10 @@ br {
             margin-top: -5px; /* change this to whatever height you want it */
 }
 
+a {
+	color: #00a5d5;
+}
+
 .negre {
 	color: black;
 }
@@ -133,7 +137,7 @@ padding: 0;
 	height:200px;
 }
 .centres .acces {
-	height:200px;
+	height:390px;
 }
 
 .centres h5 {
@@ -206,9 +210,13 @@ color: rgba(255,255,255,.5);
 margin-top: 10px;
  }
  
+ #icones-footer {
+padding: 20px;
+ }
+ 
  #icones-footer a {
  color: #00a5d5;
- padding-top: 10px;
+
  }
  
  
@@ -245,6 +253,10 @@ footer .card {
 	min-width:10rem;
 }
 
+.blanc {
+	color: white;
+}
+
 @media (max-width: 767.98px) { 
 
 	.footer {
@@ -272,4 +284,13 @@ padding: 0;
 	 text-decoration: none;
 	 /*color: #6c757d;*/
 	 color: rgba(0,165,213, 0.75);
+}
+
+#copyright {
+	padding-top: 20px;
+	font-size: 1.2em;
+}
+
+.footer h6 {
+	margin-top: 10px;
 }
